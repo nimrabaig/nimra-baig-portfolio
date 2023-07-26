@@ -1,0 +1,12 @@
+.project {
+  box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 1.25rem;
+}
+
+.project__img {
+  border-radius: 1.25rem 1.25rem 0rem 0rem;
+}
+
+.link a {
+  text-decoration: underline;
+}

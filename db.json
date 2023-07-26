@@ -1,0 +1,50 @@
+{
+  "Blog Page": {
+    "IMG": "https://res.cloudinary.com/monday-blogs/w_768,h_384,c_fit/fl_lossy,f_auto,q_auto/wp-blog/2020/12/enterprise-img.jpeg",
+    "Name": "Blog Page",
+    "Desc": "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content",
+    "Tech": "ReactJS, CSS",
+    "Live": "https://app.netlify.com/teams/bilgegates/overview",
+    "Code": "https://github.com/BilgeGates/Blog_Template_React"
+  },
+  "Flexibble": {
+    "IMG": "https://res.cloudinary.com/monday-blogs/w_768,h_384,c_fit/fl_lossy,f_auto,q_auto/wp-blog/2020/12/enterprise-img.jpeg",
+    "Name": "Flexibble",
+    "Desc": "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content",
+    "Tech": "NetxJS, CSS, TypeScript",
+    "Live": "https://flexibble-project.netlify.app/",
+    "Code": "https://github.com/BilgeGates/Flexibble"
+  },
+  "Airbnb": {
+    "IMG": "https://res.cloudinary.com/monday-blogs/w_768,h_384,c_fit/fl_lossy,f_auto,q_auto/wp-blog/2020/12/enterprise-img.jpeg",
+    "Name": "Airbnb",
+    "Desc": "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content",
+    "Tech": "NextJS, TypeScript",
+    "Live": "https://app.netlify.com/teams/bilgegates/overview",
+    "Code": "https://github.com/BilgeGates/Airbnb-Clone"
+  },
+  "Netflix ": {
+    "IMG": "https://res.cloudinary.com/monday-blogs/w_768,h_384,c_fit/fl_lossy,f_auto,q_auto/wp-blog/2020/12/enterprise-img.jpeg",
+    "Name": "Netflix",
+    "Desc": "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content",
+    "Tech": "HTML, CSS, JavaScript",
+    "Live": "https://app.netlify.com/teams/bilgegates/overview",
+    "Code": "https://github.com/BilgeGates/Netflix-Clone"
+  },
+  "E-commerce-design": {
+    "IMG": "https://res.cloudinary.com/monday-blogs/w_768,h_384,c_fit/fl_lossy,f_auto,q_auto/wp-blog/2020/12/enterprise-img.jpeg",
+    "Name": "E-commerce-design",
+    "Desc": "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content",
+    "Tech": "HTML, CSS, JavaScript",
+    "Live": "https://app.netlify.com/teams/bilgegates/overview",
+    "Code": "https://github.com/BilgeGates/E-commerce-design"
+  },
+  "BlueBird Movies": {
+    "IMG": "https://res.cloudinary.com/monday-blogs/w_768,h_384,c_fit/fl_lossy,f_auto,q_auto/wp-blog/2020/12/enterprise-img.jpeg",
+    "Name": "BlueBird Movies",
+    "Desc": "This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content",
+    "Tech": "ReactJs, CSS",
+    "Live": "https://moviesbluebird.netlify.app/",
+    "Code": "https://github.com/BilgeGates/BlueBird_Movies"
+  }
+}

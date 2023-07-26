@@ -1,0 +1,9 @@
+.left__col {
+  background: var(--gradient-1);
+  -webkit-text-fill-color: transparent;
+}
+
+.right__col {
+  background: var(--gradient-1);
+  border-radius: 50%;
+}

@@ -1,0 +1,22 @@
+.about li {
+  @apply py-[2rem];
+  border-bottom: 2px solid var(--second-clr);
+}
+
+.about span,
+.about .country {
+  @apply text-thirdh-clr text-sm font-medium leading-7;
+}
+
+.about .icon {
+  @apply w-[1rem] text-thirdh-clr;
+}
+
+.about .work {
+  @apply text-first-clr text-lg;
+}
+
+.about .time {
+  @apply bg-fourth-clr;
+  border-radius: 6.25rem;
+}

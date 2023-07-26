@@ -1,0 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@200;300;400;500;600;700&family=Montserrat:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&family=Source+Serif+4:wght@400;500;600;700&family=Work+Sans:wght@300;400;500;600;700&display=swap");
+
+nav ul li a {
+  @apply text-first-clr text-center text-lg leading-[1.625rem];
+  font-family: "DM Sans", sans-serif;
+}
