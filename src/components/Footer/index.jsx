@@ -34,7 +34,7 @@ const Footer = () => {
             </li>
           </ul>
           <div className="text-second-clr text-base font-normal leading-6">
-            The project and construction belong to Khatai Huseynzade
+            The project and construction belong to
             <span className="custom bg-clip-text leading-tight tracking-tighter">
               Khatai Huseynzade
             </span>
