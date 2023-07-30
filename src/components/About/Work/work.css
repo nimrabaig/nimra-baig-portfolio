@@ -17,6 +17,6 @@
 }
 
 .about .time {
-  @apply bg-fourth-clr;
+  @apply bg-fourth-clr py-2 px-3;
   border-radius: 6.25rem;
 }

@@ -14,7 +14,7 @@ import FigmaIMG from "../../assets/images/Figma.png";
 const Skills = () => {
   return (
     <section>
-      <div className="w-[80%] mx-auto flex flex-col justify-center items-center gap-[2rem]">
+      <div className="w-[80%] mx-auto flex flex-col text-center justify-center items-center gap-[2rem]">
         <div className="flex flex-col items-center gap-[1rem]">
           <div className="text-second-clr text-3xl font-semibold leading-tight">
             My Tech Stack

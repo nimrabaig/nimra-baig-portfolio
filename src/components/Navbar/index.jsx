@@ -1,8 +1,8 @@
-// import { Link } from "react-router-dom";
+import { CgMenuLeftAlt } from "react-icons/cg";
+import { Link } from "react-router-dom";
 import Logo from "../Logo";
 import CTA from "../CTA";
 import "./index.css";
-import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -19,7 +19,7 @@ const Navbar = () => {
                 <Link to="/about">About</Link>
               </li>
               <li>
-                <Link to="/tech">Tech Stack</Link>
+                <Link to="/tech">Tech</Link>
               </li>
               <li>
                 <Link to="/project">Projects</Link>
@@ -29,6 +29,9 @@ const Navbar = () => {
               </li>
             </ul>
             <CTA />
+            <div className="hidden">
+              <CgMenuLeftAlt />
+            </div>
           </div>
         </div>
       </div>

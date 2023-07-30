@@ -7,3 +7,9 @@
   background: var(--gradient-1);
   border-radius: 50%;
 }
+
+@media (max-width: 1045px) {
+  .right__col {
+    background: transparent;
+  }
+}

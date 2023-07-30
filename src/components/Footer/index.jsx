@@ -7,16 +7,16 @@ const Footer = () => {
   return (
     <footer>
       <div className="w-[80%] mx-auto">
-        <div className="flex justify-between items-center py-[2rem] down">
+        <div className="flex justify-between items-center py-[2rem] down flex-wrap ">
           <Logo />
-          <div className="flex justify-end items-center gap-[2.5rem]">
+          <div className="flex justify-end items-center gap-[2.5rem] ">
             <span>+91 12345 09876</span>
             <span>info@example.com</span>
             <CTA />
           </div>
         </div>
-        <div className="flex justify-between items-center py-[2rem]">
-          <ul className="flex gap-5">
+        <div className="flex justify-between items-center py-[2rem] flex-wrap gap-[1rem]">
+          <ul className="flex gap-5 ">
             <li>
               <Link to="/">Home</Link>
             </li>

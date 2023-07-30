@@ -7,7 +7,7 @@ export default {
         "first-clr": "#666",
         "second-clr": "#42446e",
         "thirdh-clr": "#a7a7a7",
-        "fourth-clr": "018c0f",
+        "fourth-clr": "#018c0f",
         "fifth-clr": "#d7ffe0",
       },
     },
