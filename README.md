@@ -37,4 +37,4 @@ pnpm run dev</p>
  ```
 <hr />
 <h2> 🍿 Demo </h2>
-<p> - Check out our live demo at https://bankist-demo-page.netlify.app/ </p>
+<p> - Check out our live demo at https://developerportfoliosite.netlify.app/ </p>
