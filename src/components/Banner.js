@@ -54,7 +54,8 @@ export const Banner = () => {
     return () => {
       clearInterval(ticker);
     };
-  }, [text, delta, tick]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [text, delta]);
 
 
 
