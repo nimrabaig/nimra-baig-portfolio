@@ -1,13 +1,17 @@
 import { Col } from "react-bootstrap";
 
-export const ProjectCard = ({ title, description, imgUrl }) => {
+export const ProjectCard = ({ title, description, imgUrl, hashtags, url }) => {
   return (
-    <Col size={12} sm={6} md={4}>
+    <Col size={12} sm={6} md={5}>
       <div className="proj-imgbx">
+        <a />
         <img src={imgUrl} />
         <div className="proj-txtx">
-          <h4>{title}</h4>
+          <a style={{ textDecoration: "none", color: "#fff" }} href={url}  target="_blank"><h4 >{title}</h4>
           <span>{description}</span>
+          <br></br>
+          <br></br>
+          {hashtags?.map((tag) => <span>#{tag}&nbsp;</span>)}</a>
         </div>
       </div>
     </Col>

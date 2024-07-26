@@ -4,6 +4,10 @@ import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
+import { HashLink } from "react-router-hash-link";
+import {
+  BrowserRouter as Router
+} from "react-router-dom";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -52,6 +56,7 @@ export const Banner = () => {
   };
 
   return (
+    <Router>
     <section className="banner" id="home">
       <Container>
         <Row className="aligh-items-center">
@@ -63,27 +68,17 @@ export const Banner = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <span className="tagline">Welcome to my Portfolio</span>
                   <h1>
-                    {`Hi! I'm Khatai`}{" "}
-                    <span
-                      className="txt-rotate"
-                      dataPeriod="1000"
-                      data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'
-                    >
-                      <span className="wrap">{text}</span>
-                    </span>
+                    {`Hi! I'm a Full Stack Developer`}{" "}
                   </h1>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                  With strong background in design and integration with intuitive problem-solving skills, I'm Passionate about implementing and launching new projects. I'm able to translate business requirements into technical solutions. I like to get things done and hit the ground without waiting to be told so. I do not hesitate to go out of my way to get the job done. I’m always willing to learn new things.
                   </p>
-                  <button onClick={() => console.log("connect")}>
+                  <HashLink to='#connect'>
+                  <button>
                     Let’s Connect <ArrowRightCircle size={25} />
                   </button>
+                  </HashLink>
                 </div>
               )}
             </TrackVisibility>
@@ -104,5 +99,6 @@ export const Banner = () => {
         </Row>
       </Container>
     </section>
+    </Router>
   );
 };

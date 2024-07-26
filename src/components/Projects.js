@@ -1,9 +1,12 @@
 /* eslint-disable jsx-a11y/alt-text */
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
+import projImg1 from "../assets/img/project-img1.PNG";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import projImg4 from "../assets/img/project-img4.png";
+import projImg5 from "../assets/img/project-img5.PNG";
+import projImg6 from "../assets/img/project-img6.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -12,38 +15,50 @@ export const Projects = () => {
   const projects = [
     {
       title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
+      description: "A Digital Marketing Agency Website",
       imgUrl: projImg3,
+      hashtags: ["React.js", "Styled-components", "Express.js", "AWS"],
+      url: "https://digital-marketing-react-website.netlify.app/"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Backstage",
+      description: "A search engine to explore over 2 million hotels & homes at low price",
       imgUrl: projImg2,
+      hashtags: ["Next.js", "Nest.js", "PostgreSQL", "AWS"],
+      url: "https://www.backstagehotels.sh"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "Workspace",
+      description: "All-in-one HR Software",
+      imgUrl: projImg4,
+      hashtags: ["React.js", "Recoil", "Nest.js", "PostgreSQL", "AWS", ],
+      url: "https://public.work-space.me/signup"
+    },
+    {
+      title: "Koerber Pharma",
+      description: "An integrated pharmaceutical manufacturing solutions",
+      imgUrl: projImg5,
+      hashtags: ["React.js", "Recoil", "Ant", "AWS", "PostgreSQL", "Nest.js"],
+      url: "https://www.koerber-pharma.com/en/"
+    },
+    {
+      title: "Lumenta Digital",
+      description: "A Digital Marketing Agency based in Canada",
+      imgUrl: projImg1,
+      hashtags: ["Next.js", "Express.js", "AWS"],
+      url: "https://www.lumentadigital.com"
+    },
+    {
+      title: "Blogs Portal",
+      description: "Easily Customizeable blogs Writing Platform",
+      imgUrl: projImg6,
+      hashtags: ["React.js", "Netlify"],
+      url: "https://blogs-portal.netlify.app/"
     },
   ];
 
   return (
-    <section className="project" id="project">
+    <section className="project" id="projects">
       <Container>
         <Row>
           <Col size={12}>
@@ -56,28 +71,10 @@ export const Projects = () => {
                 >
                   <h2>Projects</h2>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                  Crafting robust solutions across the stack, bridging innovation with precision
                   </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                    <Nav
-                      variant="pills"
-                      className="nav-pills mb-5 justify-content-center align-items-center"
-                      id="pills-tab"
-                    >
-                      <Nav.Item>
-                        <Nav.Link eventKey="first">Tab 1</Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey="second">Tab 2</Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey="third">Tab 3</Nav.Link>
-                      </Nav.Item>
-                    </Nav>
+                    
                     <Tab.Content
                       id="slideInUp"
                       className={
@@ -85,7 +82,7 @@ export const Projects = () => {
                       }
                     >
                       <Tab.Pane eventKey="first">
-                        <Row>
+                        <Row style={{ display: "flex", justifyContent: "center"}}>
                           {projects.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
                           })}
