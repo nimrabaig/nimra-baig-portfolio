@@ -17,16 +17,7 @@ export const Banner = () => {
   const [, setIndex] = useState(1);
   const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];
   const period = 2000;
-
-  useEffect(() => {
-    let ticker = setInterval(() => {
-      tick();
-    }, delta);
-
-    return () => {
-      clearInterval(ticker);
-    };
-  }, [text, delta, tick]);
+  
 
   const tick = () => {
     let i = loopNum % toRotate.length;
@@ -54,6 +45,18 @@ export const Banner = () => {
       setIndex((prevIndex) => prevIndex + 1);
     }
   };
+
+  useEffect(() => {
+    let ticker = setInterval(() => {
+      tick();
+    }, delta);
+
+    return () => {
+      clearInterval(ticker);
+    };
+  }, [text, delta, tick]);
+
+
 
   return (
     <Router>
