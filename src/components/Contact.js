@@ -16,7 +16,6 @@ export const Contact = () => {
   }
   const [formDetails, setFormDetails] = useState(formInitialDetails);
   const [buttonText, setButtonText] = useState('Send');
-  const [status, setStatus] = useState({});
 
   const onFormUpdate = (category, value) => {
     setFormDetails({
@@ -32,7 +31,7 @@ export const Contact = () => {
 
 
     jsonp(`${url}&FNAME=${formDetails.firstName}&LNAME=${formDetails.lastName}&EMAIL=${formDetails.email}&PHONE=${formDetails.phone}&MEESSAGE=${formDetails.message}`, { param: 'c' }, (_, data) => {
-      const { msg, result } = data
+      const { result } = data
       // do something with response
       if (result === "success")
         toast.success("Thank you for contacting! I will get back to you soon.")

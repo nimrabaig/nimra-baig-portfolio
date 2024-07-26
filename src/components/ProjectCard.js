@@ -7,7 +7,7 @@ export const ProjectCard = ({ title, description, imgUrl, hashtags, url }) => {
         <a />
         <img src={imgUrl} />
         <div className="proj-txtx">
-          <a style={{ textDecoration: "none", color: "#fff" }} href={url}  target="_blank"><h4 >{title}</h4>
+          <a style={{ textDecoration: "none", color: "#fff" }} href={url}  target="_blank" rel="noreferrer"><h4 >{title}</h4>
           <span>{description}</span>
           <br></br>
           <br></br>
