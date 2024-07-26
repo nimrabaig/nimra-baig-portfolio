@@ -13,25 +13,6 @@ import aws from "../assets/img/aws.png";
 import colorSharp from "../assets/img/color-sharp.png"
 
 export const Skills = () => {
-  const responsive = {
-    superLargeDesktop: {
-      // the naming can be any, depends on you.
-      breakpoint: { max: 4000, min: 3000 },
-      items: 5
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1
-    }
-  };
 
   return (
     <section className="skill" id="skills">
@@ -45,47 +26,51 @@ export const Skills = () => {
               <div style={{ display: "flex", justifyContent: "center", flexWrap: "wrap", gap: 40, padding: 5 }}>
                 <div className="item">
                   <h5>HTML</h5>
-                  <img src={html} alt="Image" />
+                  <img src={html} alt="" />
                 </div>
                 <div className="item">
                   <h5>CSS</h5>
-                  <img src={css} alt="Image" />
+                  <img src={css} alt="" />
                 </div>
                 <div className="item">
                   <h5>Javascript</h5>
-                  <img src={js} alt="Image" />
+                  <img src={js} alt="" />
                 </div>
                 <div className="item">
                   <h5>Typescript</h5>
-                  <img src={ts} alt="Image" />
+                  <img src={ts} alt="" />
                 </div>
                 <div className="item">
                   <h5>React</h5>
-                  <img src={react} alt="Image" />
+                  <img src={react} alt="" />
                 </div>
                 <div className="item">
                   <h5>Redux Toolkit</h5>
-                  <img src={redux} alt="Image" />
+                  <img src={redux} alt="" />
                 </div>
                 <div className="item">
                   <h5>tailwind</h5>
-                  <img src={tailwind} alt="Image" />
+                  <img src={tailwind} alt="" />
                 </div>
                 <div className="item">
                   <h5>Node.js</h5>
-                  <img src={node} alt="Image" />
+                  <img src={node} alt="" />
                 </div>
                 <div className="item">
                   <h5>Express.js</h5>
-                  <img src={express} alt="Image" />
+                  <img src={express} alt="" />
                 </div>
                 <div className="item">
                   <h5>Next.js</h5>
-                  <img src={next} alt="Image" />
+                  <img src={next} alt="" />
+                </div>
+                <div className="item">
+                  <h5>MongoDB</h5>
+                  <img src={mongo} alt="" />
                 </div>
                 <div className="item">
                   <h5>AWS</h5>
-                  <img src={aws} alt="Image" />
+                  <img src={aws} alt="" />
                 </div>
               </div>
             </div>
